@@ -1,0 +1,90 @@
+.homepage_ctn{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    /* border-radius: 10px; */
+    /* margin: 2vh 5vh; */
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
+    background-color: white;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+.navbar_ctn{
+    height: 100%;
+    width: 20%;
+    /* border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px; */
+    display: flex;
+    flex-direction: column;
+    /* background-color: rgb(200, 199, 205); */
+    /* border-right: 4px double black; */
+}
+
+.heading{
+    width: 100%;
+    height: 12.1%;
+    border-bottom: 1px solid black;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 1vw;
+}
+
+.pic{
+    background-size: cover;
+    background-position: center;
+    height: 4vw;
+    width: 4vw;
+}
+
+.menu_bar{
+    height: 65%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    gap: 2%;
+    /* padding: 5px; */
+    font-weight: bold;
+}
+
+.menu{
+    height: 12%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    gap: 1vw;
+    cursor: pointer;
+    /* border-radius: 10px; */
+    border: none;
+    font-size: 18px;
+    gap: 2vw;
+    margin: 2px;
+    padding-left: 3vw;
+    background-color: white;
+    /* background-color: rgb(200, 199, 205); */
+    /* border: 1px solid black; */
+}
+
+button div{
+    background-size: cover;
+    background-position: center;
+    height: 2vw;
+    width: 2vw;
+}
+
+.contain_ctn{
+    height: 100%;
+width: 80%;
+}
+
+.menu.selected {
+    background-color: blue;
+    color: white;
+}

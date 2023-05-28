@@ -1,0 +1,69 @@
+.navbar_ctn{
+    height: 100%;
+    width: 20%;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.heading{
+    width: 100%;
+    height: 12%;
+    border-bottom: 1px solid black;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 1vw;
+}
+
+.pic{
+    background-image: url(pictures/chatapp.png);
+    background-size: cover;
+    background-position: center;
+    height: 4vw;
+    width: 4vw;
+}
+
+.menu_bar{
+    height: 65%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    gap: 2%;
+    padding: 5px;
+}
+
+.menu{
+    height: 12%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    gap: 1vw;
+    cursor: pointer;
+    border-radius: 10px;
+    border: none;
+    font-size: 18px;
+    gap: 2vw;
+    padding-left: 3vw;
+}
+
+button div{
+    background-size: cover;
+    background-position: center;
+    height: 2vw;
+    width: 2vw;
+}
+
+.pic1{background-image: url(pictures/dashboard.png);}
+.pic2{background-image: url(pictures/analystics.png);}
+.pic3{background-image: url(pictures/files.png);}
+.pic4{background-image: url(pictures/call.png);}
+.pic5{background-image: url(pictures/message.png);}
+.pic6{background-image: url(pictures/community.png);}
+.pic7{background-image: url(pictures/settings.png);}
