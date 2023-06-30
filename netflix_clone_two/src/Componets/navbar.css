@@ -1,0 +1,33 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+    z-index: 100;
+    width: 100%;
+    position: absolute;
+  }
+  
+  .navbar-logo {
+    text-decoration: none;
+  }
+  
+  .navbar-title {
+    color: #e50914;
+    font-size: 2rem;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .navbar-button {
+    color: #fff;
+    padding-right: 1rem;
+  }
+  
+  .navbar-button:last-child {
+    background-color: #e50914;
+    padding: 0.5rem 1rem;
+    border-radius: 0.25rem;
+    cursor: pointer;
+  }
+  

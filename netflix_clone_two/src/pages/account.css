@@ -1,0 +1,38 @@
+.account-container {
+    position: relative;
+    color: #fff;
+    width: 100%;
+  }
+  
+  .account-image {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+  }
+  
+  .account-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: 1;
+  }
+  
+  .account-content {
+    position: absolute;
+    top: 20%;
+    padding: 1rem;
+  }
+  
+  .account-title {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  
+  .saved-shows-container {
+    margin-top: 2rem;
+  }
+  
