@@ -10,10 +10,8 @@ function Banner() {
   const [trailerurl, setTrailerurl] = useState("");
 
   useEffect(() => {
-      
     async function fetchData() {
         const request = await axios.get(requests.fetchNetflixOriginals) ;
-
         setMovie(
             request.data.results[
                 Math.floor(Math.random() * request.data.results.length - 1)
@@ -29,7 +27,6 @@ function Banner() {
       return str?.length > n ? str.substr(0, n - 1) + "..." : str;  };
 
       const handleClick = (movie) => {
-        
         if(trailerurl){
           setTrailerurl("");
         }else{
@@ -92,10 +89,7 @@ function Banner() {
          
        </header>
       
-       {trailerurl && <YouTube
-             videoId={trailerurl}  
-             opts={opts}
-            />} 
+       {trailerurl && <YouTube videoId={trailerurl} opts={opts} className="youtube"/>} 
       </div>
     )
 }
